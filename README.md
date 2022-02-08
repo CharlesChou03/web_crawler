@@ -1,1 +1,2 @@
-# web_crawler
+# web crawler
+purpose: crawl data from website
