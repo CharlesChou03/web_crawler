@@ -1,3 +1,5 @@
+### ref: https://www.learncodewithmike.com/2020/02/python-beautifulsoup-web-scraper.html
+
 import requests
 from bs4 import BeautifulSoup
 response = requests.get(
