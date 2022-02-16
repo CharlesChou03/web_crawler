@@ -8,6 +8,8 @@
 #   2.2. display information about total vocabulary number so far.
 #   2.3. default number is 3
 #   2.4. validate input (number only).
+#   2.5. display error message if display vocabulary without creating vocabulary file.
+#   2.6. display proportion (picked/total).
 
 
 # test case
