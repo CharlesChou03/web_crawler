@@ -24,6 +24,7 @@
 ## [display_vocabulary.py]
 ## 1. display n vocabulary randomly.
 ## 2. validate input
+* validate input. -> result: display validation message if invalid input and exit.
 
 
 # you can learn vocabulary from here
