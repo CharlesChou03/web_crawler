@@ -1,4 +1,5 @@
 import random
+import os
 
 FILE_PATH = "./vocabulary.txt"
 DEFAULT_N = 3
@@ -14,8 +15,11 @@ if not inp:
     n = DEFAULT_N
 else:
     n = int(inp)
-print(n)
-exit(0)
+
+if not os.path.isfile(FILE_PATH):
+    print("Please create \"vocabulary.txt\" first!")
+    exit(0)
+
 exist_vocabulary = set()
 count = 0
 with open(FILE_PATH, "r") as f:
@@ -34,6 +38,7 @@ for i in range(n):
     exist_vocabulary.remove(item[0])
     items.append(item[0])
 
-print("Today vocabulary")
+picked_n = len(items)
+print("Today vocabulary (%s/%s)" % (picked_n, count))
 for v in items:
     print("-> " + v)
