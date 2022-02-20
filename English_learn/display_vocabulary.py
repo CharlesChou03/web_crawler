@@ -27,7 +27,7 @@ else:
 print("Execute file path is \"%s\" by destination \"%s\"" % (FILE_PATH, destination))
 
 if not os.path.isfile(FILE_PATH):
-    print("Please create \"vocabulary.txt\" first!")
+    print("Please create \"%s\" first!" % FILE_PATH)
     exit(0)
 
 exist_vocabulary = set()
