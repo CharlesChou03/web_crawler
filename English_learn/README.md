@@ -29,3 +29,6 @@
 
 # you can learn vocabulary from here
 * https://www.ldoceonline.com/
+
+# vocabulary list ref
+* https://www.ef.com/wwen/english-resources/english-vocabulary/top-3000-words/
